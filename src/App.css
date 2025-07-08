@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+.todo-input::placeholder{
+  color:#ffffff4d;
+}
+.todo-btn{
+  background:#8758ff;
+  color:#fff;
+  border:none;
+  padding:0.55rem;
+  cursor:pointer;
+
+}
+.todo{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  color:#fff;
+  padding:0.75rem 1 rem;
+  border-radius: 5px;
+  margin-bottom:1rem;
+  cursor: pointer;
+}
+
+.fa-trash{
+  margin-left:0.75rem;
+}
+
+.completed{
+  color:#c5aeff;
+  text-decoration: line-through;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
